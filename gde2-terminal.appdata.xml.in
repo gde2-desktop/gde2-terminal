@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 GDE2 team <gde2-dev@ml.gde2-desktop.org> -->
+<component type="desktop">
+ <id>gde2-terminal.desktop</id>
+ <metadata_license>CC0-1.0</metadata_license>
+ <project_license>GPL-3.0+</project_license>
+ <name>GDE2 Terminal</name>
+ <_summary>A terminal emulator for the GDE2 desktop environment</_summary>
+ <_description>
+  <p>
+   GDE2 Terminal is a terminal emulation application that you can use
+   to access a UNIX shell in the GDE2 environment. GDE2 Terminal emulates
+   the xterm program developed by the X Consortium. It supports translucent
+   backgrounds, opening multiple terminals in a single window (tabs) and
+   clickable URLs.
+  </p>
+  <p>
+   GDE2 Terminal is a fork of GNOME Terminal and part of the GDE2 Desktop Environment.
+   If you would like to know more about GDE2 and GDE2 Terminal, please visit the
+   project's home page.
+  </p>
+ </_description>
+ <screenshots>
+  <screenshot type="default">
+   <image width="960" height="540">
+    https://alexpl.fedorapeople.org/AppData/gde2-terminal/screens/gde2-terminal_01.png
+   </image>
+  </screenshot>
+  <screenshot>
+   <image width="960" height="540">
+    https://alexpl.fedorapeople.org/AppData/gde2-terminal/screens/gde2-terminal_02.png
+   </image>
+  </screenshot>
+  <screenshot>
+   <image width="960" height="540">
+    https://alexpl.fedorapeople.org/AppData/gde2-terminal/screens/gde2-terminal_03.png
+   </image>
+  </screenshot>
+ </screenshots>
+ <url type="homepage">http://www.gde2-desktop.org</url>
+ <updatecontact>gde2-dev@ml.gde2-desktop.org</updatecontact>
+ <project_group>GDE2</project_group>
+</component>
