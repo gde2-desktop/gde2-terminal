@@ -1,6 +1,6 @@
 m4_define([gt_version_major],[1])
-m4_define([gt_version_minor],[14])
-m4_define([gt_version_micro],[1])
+m4_define([gt_version_minor],[0])
+m4_define([gt_version_micro],[0])
 m4_define([gt_version_extra],[])
 m4_define([gt_version],[gt_version_major().gt_version_minor().gt_version_micro()gt_version_extra])
 
@@ -46,7 +46,7 @@ AM_GLIB_GNU_GETTEXT
 
 GLIB_REQUIRED=2.36.0
 GIO_REQUIRED=2.25.12
-GDE2_DESKTOP_REQUIRED=1.9.0
+GDE2_DESKTOP_REQUIRED=1.0.0
 
 AC_MSG_CHECKING([which gtk+ version to compile against])
 AC_ARG_WITH([gtk],
