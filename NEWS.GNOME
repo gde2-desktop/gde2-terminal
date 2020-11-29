@@ -1,6 +1,6 @@
 2.32.0
 ======
- * GDE2 Terminal is now licensed under GPL 3 or later
+ * GNOME Terminal is now licensed under GPL 3 or later
  * New features:
     * Add a Search menu (#78963)
     * Enable "File -> Save Contents" again
@@ -10,7 +10,7 @@
     * Closing tabs regression fixed (#521193)
     * Fix compiler warnings (#521417)
     * Escape ":", "@" or "/" chars within proxy user/password env vars (#614464)
- * All bugs fixed: http://bugzilla.gde2.org/buglist.cgi?product=gde2-terminal&bug_status=RESOLVED&resolution=FIXED&chfieldfrom=2010-03-29&chfieldto=2010-09-27+23:59:00&chfield=bug_status
+ * All bugs fixed: http://bugzilla.mate.org/buglist.cgi?product=mate-terminal&bug_status=RESOLVED&resolution=FIXED&chfieldfrom=2010-03-29&chfieldto=2010-09-27+23:59:00&chfield=bug_status
  * Documentation updates
  * Many translation updates
 
@@ -22,21 +22,21 @@
     * unlimited scrollback
     * improved proxy env suppport
     * bold color support
- * Many bugs fixed: http://bugzilla.gde2.org/buglist.cgi?product=gde2-terminal&bug_status=RESOLVED&resolution=FIXED&chfieldfrom=2009-09-24&chfieldto=2010-03-29+23:59:00&chfield=bug_status
+ * Many bugs fixed: http://bugzilla.GNOME.org/buglist.cgi?product=GNOME-terminal&bug_status=RESOLVED&resolution=FIXED&chfieldfrom=2009-09-24&chfieldto=2010-03-29+23:59:00&chfield=bug_status
  * Many translation updates
 
 2.28.0
 ======
- * Many bugs fixed: http://bugzilla.gde2.org/buglist.cgi?product=gde2-terminal&bug_status=RESOLVED&resolution=FIXED&chfieldfrom=2009-03-16&chfieldto=2009-09-21+23:59:00&chfield=bug_status
+ * Many bugs fixed: http://bugzilla.GNOME.org/buglist.cgi?product=GNOME-terminal&bug_status=RESOLVED&resolution=FIXED&chfieldfrom=2009-03-16&chfieldto=2009-09-21+23:59:00&chfield=bug_status
  * Many translation updates
 
 2.26.0
 ======
- * Libgde2component dependency dropped
- * Libgde2 and libgde2ui dependency dropped
+ * LibGNOMEcomponent dependency dropped
+ * LibGNOME and libGNOMEui dependency dropped
  * Depends on VTE 0.19
  * Now uses DBus for single instance/factory setup
- * Many bugs fixed: http://bugzilla.gde2.org/buglist.cgi?product=gde2-terminal&bug_status=RESOLVED&resolution=FIXED&chfieldfrom=2008-09-22&chfieldto=2009-03-16+23:59:00&chfield=bug_status
+ * Many bugs fixed: http://bugzilla.GNOME.org/buglist.cgi?product=GNOME-terminal&bug_status=RESOLVED&resolution=FIXED&chfieldfrom=2008-09-22&chfieldto=2009-03-16+23:59:00&chfield=bug_status
  * Many translation updates
 
 2.23.4.2
@@ -97,24 +97,24 @@ Updated translations:
 2.21.5
 ===
 - Adapt to new GChecksum API
-- Bug 336155 – [patch] port gde2-terminal to goption; based on patch
+- Bug 336155 – [patch] port GNOME-terminal to goption; based on patch
   from Christian Kirbach
-- Fix cropped tab close buttons with gde2-icon-theme svn
+- Fix cropped tab close buttons with GNOME-icon-theme svn
 - Translation updates
 
 2.21.4
 ===
 - Fix a crasher and some cleanup:
-	Bug 501635 – crash in Terminal: running gde2-session-sa...
+	Bug 501635 – crash in Terminal: running GNOME-session-sa...
 	Bug 501667 – Use GCheksum for md5 and sha1
 		Patch from Christian Persch
 	Bug 501665 – Remove simple-x-font-selector
 	Bug 144000 – encodings other than the current encoding are not listed
-		in gde2-terminal on Solaris.
+		in GNOME-terminal on Solaris.
 
 2.21.3
 ===
-- Synch version number to GDE2 release.
+- Synch version number to GNOME release.
 - Fix a crasher and some cleanup:
 	Bug 499877 – Update terminal_app_get_clone_command() to use g_array
 		Patch from Dubon
@@ -122,7 +122,7 @@ Updated translations:
 		Patch from Christian Persch
 	Bug 353775 – Use GtkNotebook instead of TerminalNotebook
 		Patch from Christian Persch and Mariano Suárez-Alvarez
-	Bug 441618 – Message-ID/news-Link crashes gde2-terminal
+	Bug 441618 – Message-ID/news-Link crashes GNOME-terminal
 
 2.18.3
 ===
@@ -241,7 +241,7 @@ New and updated translations:
 	             Patch from Mariano Suárez-Alvarez
 	Bug 353020 – Detaching a tab does not preserve the size
 	             Patch from Mariano Suárez-Alvarez
-	Bug 336943 – Critical warning and crash in gde2-terminal
+	Bug 336943 – Critical warning and crash in GNOME-terminal
 	             Patch from Mariano Suárez-Alvarez
 	Bug 138609 – Next/prev TAB keybindings should not be passed through on
 	             first/last tab
@@ -283,7 +283,7 @@ New and updated translations:
 Thanks for this release go to Behdad Esfahbod, Guilherme de S. Pastore,
 Tommi Vainikainen and all the translators listed below.
 
-- Migrated to gde2-doc-utils.
+- Migrated to GNOME-doc-utils.
 - Migrated to po/LINGUAS (bug #337904).
 - Exports authentication proxy settings (bug #339134).
 - Correctly recognizes Xrender on Solaris (bug #339979).
@@ -356,7 +356,7 @@ Tommi Vainikainen and all the translators listed below.
 - Allow returning to dynamically setting the title by manually
   setting it to an empty string (bug #328932)
 - Several fixes and improvements to the patches applied for exporting
-  the GDE2 proxy settings to the terminal and disabling anti-aliasing
+  the GNOME proxy settings to the terminal and disabling anti-aliasing
 - Other optimizations, cleanups and standards-compliance changes (bug #328043)
 
 - Lots of updated translations; huge thanks to the translators!
@@ -385,7 +385,7 @@ Tommi Vainikainen and all the translators listed below.
 - Make file:// URLs work by splitting their handling from others (bug #309201)
 - Avoid title desyncs by setting icon title together with window title (bug #324965)
 - Keep the title unchanged after it has been manually set (bug #152986)
-- Export the GDE2 proxy settings to the terminal (bug #321952)
+- Export the GNOME proxy settings to the terminal (bug #321952)
 - General build, user interface, performance and internationalization improvements
   (bugs #100038, #129889, #139332, #158319, #324246)
 
@@ -496,13 +496,13 @@ Tommi Vainikainen and all the translators listed below.
 2.9.3
 ===
 
-- Approxigde2 the time that gde2-terminal was launched if not launched with
+- ApproxiGNOME the time that GNOME-terminal was launched if not launched with
   startup-notification (Elijah Newren) [#168812]
 - Translation updates: Vladimir Petkov (bg), Jordi Mallach (ca), Kostas
   Papadimas (el), Priit Laes (et), Pauli Virtanen (fi), Christophe
   Merlet (RedFox) (fr), Ankit Patel (gu), Takeshi AIHANA (ja), Young-Ho Cha (ko),
   Žygimantas Beručka (lt), Kjartan Maraas (nb), Rajeev Shrestha (ne), Åsmund
-  Skjæveland (nn), Kjartan Maraas (no), Gde2 PL Team (pl), Gustavo Noronha
+  Skjæveland (nn), Kjartan Maraas (no), GNOME PL Team (pl), Gustavo Noronha
   Silva (pt_BR), Duarte Loreto (pt), Leonid Kanter (ru), Marcel Telka (sk),
   Christian Rose (sv), Theppitak Karoonboonyanan (th), Maxim Dziumanenko (uk)
 
@@ -544,7 +544,7 @@ Tommi Vainikainen and all the translators listed below.
 - Deal with lastlog/utmp/wtmp sanely.
 - Updated translations: Rostislav Raykov (bg), Miloslav Trmac (cs),
   Adam Weinberger (en_CA), Gareth Owen (en_GB), Takeshi AIHANA (ja),
-  Žygimantas Beručka (lt), Arangel Angov (mk), Gde2 PL Team (pl),
+  Žygimantas Beručka (lt), Arangel Angov (mk), GNOME PL Team (pl),
   Laurent Dhima (sq).
 
 2.7.2
@@ -554,7 +554,7 @@ Tommi Vainikainen and all the translators listed below.
 - Do not accept repeated shortcuts (Kiran Kumar Immidi)
 - Make gcc 3.4.0 like us (Stef van der Made),
 - Add a confirmation dialog when closing a window with >1 tabs.
-- Use the gde2-common scripts.
+- Use the GNOME-common scripts.
 - Make the xterm color paletter exactly match xterm's.
 - Now profiles can implement the analogue of xterm's -hold command line option.
   (Kurt V. Hindenburg)
@@ -571,7 +571,7 @@ Tommi Vainikainen and all the translators listed below.
 - Set window roles on all windows, so that window managers can use
   this information.
 - Lots of changes so that the interface follows the HIG more closely and
-  plays well and consistently with the rest of GDE2, becoming in general
+  plays well and consistently with the rest of GNOME, becoming in general
   more usable. This includes from wording changes to various rearrangements
   in the interface to behaviour changes.- Updated and enhanced manual.
 - Better URL recognition.
@@ -604,14 +604,14 @@ bug herders, testers, bug reporters and a big et caetera.
 
   - Fixed a crash under IceWM, thanks to Owen, who “spent quite some
     time looking at protocol traces”.
-  - Use the new file chooser, now that libgde2ui allows us to do that.
+  - Use the new file chooser, now that libGNOMEui allows us to do that.
   - Be better w.r.t. a11y; Muktha Narayan.
   - A couple of minor miscellaneous fixes.
   - Updated translations: Mətin Əmirov (az), Miloslav Trmac (cs), 
     Nikos Charonitakis (el), Francisco Javier F. Serrador (es), 
     Pauli Virtanen (fi), Christophe Merlet (RedFox) (fr),
     Takeshi AIHANA (ja), Young-Ho Cha (ko), Daniel van Eeden (nl), 
-    Kjartan Maraas (no), Gde2 PL Team (pl), Laurent Dhima (sq), 
+    Kjartan Maraas (no), GNOME PL Team (pl), Laurent Dhima (sq), 
     Слободан Средојевић (sr), Christian Rose (sv), Maxim Dziumanenko (uk).
 
 2.5.4
@@ -626,7 +626,7 @@ bug herders, testers, bug reporters and a big et caetera.
     F. Serrador (es), Christophe Merlet (RedFox) (fr), Alastair McKinstry
     (ga), Robert Sedak (hr), Takeshi AIHANA (ja), Young-Ho Cha (ko),
     Žygimantas Beručka (lt), Sanlig Badral (mn), Daniel van Eeden (nl),
-    Åsmund Skjæveland (nn), Kjartan Maraas (no), Gde2 PL Team (pl), Duarte
+    Åsmund Skjæveland (nn), Kjartan Maraas (no), GNOME PL Team (pl), Duarte
     Loreto (pt), Laurent Dhima (sq), Слободан Средојевић (sr).
 
 2.5.1
@@ -637,8 +637,8 @@ bug herders, testers, bug reporters and a big et caetera.
     to gnopernicus/GOK users.
   - Updates to the manual.
   - Follow the HIG and the GDSG more closely.
-  - Make uris go through gde2_vfs_make_uri_from_input so that
-    things like www.gde2.org are properly handled (Behdad Esfahbod).
+  - Make uris go through GNOME_vfs_make_uri_from_input so that
+    things like www.GNOME.org are properly handled (Behdad Esfahbod).
 
 2.5.0
 ===

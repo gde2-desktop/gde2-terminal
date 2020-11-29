@@ -3,7 +3,7 @@ GnuDE2
 Rename to "gde2-terminal"
 
 
-GDE2
+MATE
 1.14.1
 
   * man: add missing description of -x / --execute command line option
@@ -14,7 +14,7 @@ GDE2
   * Compile dingu regexes with MULTILINE option
   * Fix incorrect ordering of COLS and ROWS in command-line option
     description and in the manpage
-  * GTK+3: add style class gde2-terminal
+  * GTK+3: add style class mate-terminal
   * GTK+3: fix window sizes for 3.20
   * GTK+3: fix several deprecations
   * Some more fixes and cleanups
