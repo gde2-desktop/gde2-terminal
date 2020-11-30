@@ -1,5 +1,5 @@
 [Desktop Entry]
-_Name=GDE2 Terminal
+_Name=GDE Terminal
 _GenericName=Terminal
 _Comment=Use the command line
 TryExec=gde2-terminal
@@ -8,10 +8,9 @@ Icon=utilities-terminal
 Type=Application
 X-GDE2-DocPath=gde2-terminal/index.html
 X-GDE2-Bugzilla-Bugzilla=GDE2
-X-GDE2-Bugzilla-Product=gde2-terminal
+X-GDE2-Bugzilla-Product=GDE2-terminal
 X-GDE2-Bugzilla-Component=BugBuddyBugs
 X-GDE2-Bugzilla-Version=@VERSION@
 Categories=System;GTK;Utility;TerminalEmulator;
 StartupNotify=true
 
-Name[ru_RU]=gde2-terminal.desktop.in.in
